@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="пароль" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iyY-U2-PF6">
-                                <rect key="frame" x="66.5" y="486" width="281" height="30"/>
+                                <rect key="frame" x="66.5" y="498" width="281" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="281" id="Aws-8U-GFS"/>
                                     <constraint firstAttribute="height" constant="30" id="tqt-wI-V4F"/>
@@ -29,7 +29,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="логин" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bgg-1t-Gu7">
-                                <rect key="frame" x="66.5" y="448" width="281" height="30"/>
+                                <rect key="frame" x="66.5" y="460" width="281" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="281" id="7sl-bF-KgP"/>
                                     <constraint firstAttribute="height" constant="30" id="EZo-6g-pX9"/>
@@ -40,7 +40,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIf-Q6-z2A">
-                                <rect key="frame" x="147" y="548" width="120" height="40"/>
+                                <rect key="frame" x="147" y="560" width="120" height="40"/>
                                 <color key="backgroundColor" red="1" green="0.5929340550503952" blue="0.23601704434304738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Dfk-D8-rFb"/>
@@ -68,7 +68,7 @@
                             <constraint firstItem="OIf-Q6-z2A" firstAttribute="centerX" secondItem="QPp-FE-Abw" secondAttribute="centerX" id="Ljp-nV-THK"/>
                             <constraint firstItem="bgg-1t-Gu7" firstAttribute="centerX" secondItem="QPp-FE-Abw" secondAttribute="centerX" id="Mvl-yO-K52"/>
                             <constraint firstItem="OIf-Q6-z2A" firstAttribute="top" secondItem="iyY-U2-PF6" secondAttribute="bottom" constant="32" id="O5I-je-LNf"/>
-                            <constraint firstItem="bgg-1t-Gu7" firstAttribute="top" secondItem="QPp-FE-Abw" secondAttribute="top" constant="360" id="reL-ad-Yut"/>
+                            <constraint firstItem="bgg-1t-Gu7" firstAttribute="centerY" secondItem="QPp-FE-Abw" secondAttribute="centerY" id="hnj-Ll-Noc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QPp-FE-Abw"/>
                     </view>
